@@ -2,7 +2,7 @@
   {
     "name": "Sophia",
     "email": "sophiafit1@gmail.com",
-    "interests": "Viral pop culture moments, celebrity scandals with social commentary, and astrological events (Zodiac/Horoscope) affecting culture.",
-    "topic_query": "\"Celebrity news\" OR \"viral scandal\" OR \"pop culture commentary\" OR \"Mercury Retrograde\" OR \"Zodiac news\" -stock -market"
+    "interests": "Viral pop culture moments, celebrity scandals with social commentary",
+    "topic_query": "\"Celebrity news\" OR \"viral scandal\" OR \"pop culture commentary\" OR \"Mercury Retrograde\" OR \"Zodiac news\""
   }
 ]

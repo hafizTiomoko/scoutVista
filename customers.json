@@ -2,13 +2,13 @@
   {
     "name": "Mo",
     "email": "balajom@yahoo.co.uk",
-    "interests": "Recruitment in biology and life sciences",
-    "topic_query": "Trendy startups in the life sciences and biology sectors"
+    "interests": "Recruitment triggers in Life Sciences: companies raising capital, FDA approvals, or expanding teams.",
+    "topic_query": "\"Biotech\" OR \"Life Sciences\" startup funding OR \"Series A\" OR \"Series B\" -market -stock"
   },
   {
     "name": "Paris",
     "email": "parisezra@gmail.com",
-    "interests": "Sales in the software industry",
-    "topic_query": "Trendy startups in the software sales industry"
+    "interests": "B2B Software Sales intelligence: fast-growing SaaS companies, recent funding rounds, and sales tech trends.",
+    "topic_query": "\"B2B SaaS\" OR \"Enterprise Software\" startup funding OR \"Series A\" OR \"high growth\""
   }
 ]

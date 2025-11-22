@@ -1,14 +1,8 @@
 [
   {
-    "name": "Mo",
-    "email": "balajom@yahoo.co.uk",
-    "interests": "Recruitment triggers in Life Sciences: companies raising capital, FDA approvals, or expanding teams.",
-    "topic_query": "\"Biotech\" OR \"Life Sciences\" startup funding OR \"Series A\" OR \"Series B\" -market -stock"
-  },
-  {
-    "name": "Paris",
-    "email": "parisezra@gmail.com",
-    "interests": "B2B Software Sales intelligence: fast-growing SaaS companies, recent funding rounds, and sales tech trends.",
-    "topic_query": "\"B2B SaaS\" OR \"Enterprise Software\" startup funding OR \"Series A\" OR \"high growth\""
+    "name": "Sophia",
+    "email": "sophiafit1@gmail.com",
+    "interests": "Viral pop culture moments, celebrity scandals with social commentary, and astrological events (Zodiac/Horoscope) affecting culture.",
+    "topic_query": "\"Celebrity news\" OR \"viral scandal\" OR \"pop culture commentary\" OR \"Mercury Retrograde\" OR \"Zodiac news\" -stock -market"
   }
 ]

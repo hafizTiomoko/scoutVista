@@ -1,4 +1,16 @@
-steps:
+name: Weekly Intel Dispatch
+
+on:
+  schedule:
+    # Runs at 08:00 UTC every Monday
+    - cron: '0 8 * * 1'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    
+    steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 

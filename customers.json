@@ -1,14 +1,14 @@
 [
   {
-    "name": "Alex",
-    "email": "alex@example.com",
-    "interests": "New battery technologies for EV trucks",
-    "topic_query": "EV battery logistics supply chain"
+    "name": "Mo",
+    "email": "balajom@yahoo.co.uk",
+    "interests": "Recruitment in biology and life sciences",
+    "topic_query": "Trendy startups in the life sciences and biology sectors"
   },
   {
-    "name": "Sarah",
-    "email": "sarah@example.com",
-    "interests": "Regulatory changes in EU pharmaceutical imports",
-    "topic_query": "EU pharma import regulations"
+    "name": "Paris",
+    "email": "parisezra@gmail.com",
+    "interests": "Sales in the software industry",
+    "topic_query": "Trendy startups in the software sales industry"
   }
 ]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Alex",
+    "email": "alex@example.com",
+    "interests": "New battery technologies for EV trucks",
+    "topic_query": "EV battery logistics supply chain"
+  },
+  {
+    "name": "Sarah",
+    "email": "sarah@example.com",
+    "interests": "Regulatory changes in EU pharmaceutical imports",
+    "topic_query": "EU pharma import regulations"
+  }
+]

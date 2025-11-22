@@ -1,0 +1,32 @@
+name: Weekly Intel Dispatch
+
+on:
+  schedule:
+    # Runs at 08:00 UTC every Monday
+    - cron: '0 8 * * 1'
+  workflow_dispatch: # Allows you to click "Run" manually for testing
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install openai requests python-dotenv
+
+      - name: Run Collector Agent
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python main.py

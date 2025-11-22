@@ -8,6 +8,9 @@ from typing import List, Dict
 from openai import OpenAI
 from dotenv import load_dotenv
 
+# --- VERSION CHECK ---
+print("\n🚀 STARTING COLLECTOR AGENT V3.0 (DEBUG MODE)\n")
+
 load_dotenv()
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -28,10 +31,10 @@ class CollectorAgent:
         try:
             response = requests.post(url, headers=headers, data=payload)
             results = response.json().get("organic", [])
-            # DEBUG: Print what Google actually found
-            print(f"  🔎 Google Found {len(results)} raw links:")
-            for r in results[:3]:
-                print(f"     - {r.get('title')}")
+            print(f"  🔎 Google returned {len(results)} links.")
+            # DEBUG: Print the first link title to prove we have data
+            if results:
+                print(f"     Example: {results[0].get('title')}")
             return results
         except Exception as e:
             print(f"Error searching: {e}")
@@ -40,15 +43,13 @@ class CollectorAgent:
     def filter_and_rank(self, articles):
         if not articles: return []
         
-        # 1. THE LAX PROMPT: We lower the standard from 7/10 to 3/10
         articles_context = "\n".join([f"ID: {i} | Title: {a.get('title')} | Snippet: {a.get('snippet')}" for i, a in enumerate(articles)])
         
+        # VERY LOOSE PROMPT
         prompt = f"""
         I have a list of articles. The user is interested in: "{self.interest_profile}".
-        
-        Return a JSON object with a list of "selected_ids" for articles that are remotely relevant (Score > 3/10).
-        If you are unsure, INCLUDE IT. Do not be strict.
-        
+        Return a JSON object with a list of "selected_ids" for ANY article that is even slightly relevant.
+        If unsure, INCLUDE IT.
         Articles:
         {articles_context}
         """
@@ -61,7 +62,7 @@ class CollectorAgent:
                 response_format={"type": "json_object"}
             )
             content = response.choices[0].message.content
-            print(f"  🤖 AI Thought Process: {content}") # DEBUG: See what AI said
+            # print(f"  🤖 AI Decision: {content}") 
             ids = json.loads(content).get("selected_ids", [])
             return [articles[i] for i in ids if i < len(articles)]
         except Exception as e:
@@ -70,15 +71,12 @@ class CollectorAgent:
 
     def write_email(self, articles, is_fallback=False):
         if not articles: return None
-        
         content = "\n".join([f"- {a['title']}: {a['link']}" for a in articles])
-        
         prefix = ""
         if is_fallback:
-            prefix = "NOTE: The AI filter found no high-confidence matches, so here are the raw top results:\n\n"
-
-        prompt = f"Write a short executive summary for: {self.interest_profile}.\n\nData:\n{content}"
+            prefix = "NOTE: AI found no high-confidence matches. Showing raw results:\n\n"
         
+        prompt = f"Write a short executive summary for: {self.interest_profile}.\n\nData:\n{content}"
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": prompt}]
@@ -112,15 +110,14 @@ if __name__ == "__main__":
         raw_news = agent.search_google()
         filtered_news = agent.filter_and_rank(raw_news)
         
-        # THE FALLBACK LOGIC
         if filtered_news:
-            print(f"  Found {len(filtered_news)} relevant articles.")
-            email_body = agent.write_email(filtered_news, is_fallback=False)
+            print(f"  Found {len(filtered_news)} curated articles.")
+            email_body = agent.write_email(filtered_news)
             send_email(cust['email'], f"Weekly Intel: {cust['name']}", email_body)
         elif raw_news:
-            print(f"  ⚠️ No matches found. Sending top 3 raw links as backup.")
-            # If AI rejects everything, send top 3 raw links anyway
+            print(f"  ⚠️ Falling back to raw links.")
+            # FALLBACK: Send top 3 raw links if AI filters everything out
             email_body = agent.write_email(raw_news[:3], is_fallback=True)
             send_email(cust['email'], f"Weekly Intel (Raw): {cust['name']}", email_body)
         else:
-            print(f"  No news found at all (Google returned 0).")
+            print(f"  No news found.")

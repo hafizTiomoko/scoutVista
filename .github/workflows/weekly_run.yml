@@ -1,16 +1,4 @@
-name: Weekly Intel Dispatch
-
-on:
-  schedule:
-    # Runs at 08:00 UTC every Monday
-    - cron: '0 8 * * 1'
-  workflow_dispatch: # Allows you to click "Run" manually for testing
-
-jobs:
-  run-agent:
-    runs-on: ubuntu-latest
-    
-    steps:
+steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 
@@ -22,6 +10,12 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install openai requests python-dotenv
+
+      - name: 🕵️ DEBUG - Show me the file
+        run: |
+          echo "--- START OF MAIN.PY ON SERVER ---"
+          cat main.py
+          echo "--- END OF MAIN.PY ON SERVER ---"
 
       - name: Run Collector Agent
         env:

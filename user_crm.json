@@ -1,0 +1,1117 @@
+{
+    "Expedia Group": {
+        "relationship_strength": 38,
+        "key_contacts": [
+            {
+                "name": "Victoria Lopez Morales",
+                "role": "Director, Machine Learning Science",
+                "is_vip": false
+            },
+            {
+                "name": "Nicholas Torr, PhD",
+                "role": "Senior Director, Machine Learning Science",
+                "is_vip": false
+            },
+            {
+                "name": "Giorgio Mondauto",
+                "role": "Sr. Manager of Data and Machine Learning Science",
+                "is_vip": false
+            }
+        ]
+    },
+    "Huawei Technologies Research & Development (UK) Ltd": {
+        "relationship_strength": 18,
+        "key_contacts": [
+            {
+                "name": "Henk Koopmans",
+                "role": "Chief Executive Officer",
+                "is_vip": false
+            },
+            {
+                "name": "Wei Zhang",
+                "role": "Director",
+                "is_vip": false
+            },
+            {
+                "name": "Gerasimos Lampouras",
+                "role": "Team Leader of the London NLP Team",
+                "is_vip": false
+            }
+        ]
+    },
+    "Samsung Electronics": {
+        "relationship_strength": 15,
+        "key_contacts": [
+            {
+                "name": "Bruno Manganelli",
+                "role": "Senior AI Research Engineer II",
+                "is_vip": false
+            },
+            {
+                "name": "Luca Gagliano",
+                "role": "Senior Engineer III",
+                "is_vip": false
+            },
+            {
+                "name": "Haaris ",
+                "role": "Senior AI Research Engineer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Huawei": {
+        "relationship_strength": 10,
+        "key_contacts": [
+            {
+                "name": "TIOMOKO Malik",
+                "role": "Senior Research Engineer",
+                "is_vip": true
+            },
+            {
+                "name": "Vasilii Feofanov",
+                "role": "Senior Research Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Zuhair Aljohani",
+                "role": "Public Relations Manager",
+                "is_vip": false
+            }
+        ]
+    },
+    "Orange": {
+        "relationship_strength": 10,
+        "key_contacts": [
+            {
+                "name": "Mohamed MOUHAOUIR",
+                "role": "Project Manager(consultant)",
+                "is_vip": false
+            },
+            {
+                "name": "Qehtane Delmi Bouras",
+                "role": "Project Manager",
+                "is_vip": false
+            },
+            {
+                "name": "Eric UMDENSTOCK",
+                "role": "Grand-p\u00e8re d\u2019Isabelle (8 ans) et de Victor (9 mois)",
+                "is_vip": false
+            }
+        ]
+    },
+    "Meta": {
+        "relationship_strength": 7,
+        "key_contacts": [
+            {
+                "name": "Ming Li",
+                "role": "Research Scientist",
+                "is_vip": false
+            },
+            {
+                "name": "Jacob Wood",
+                "role": "Machine Learning Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Yoram Bachrach",
+                "role": "Research Scientist (FAIR)",
+                "is_vip": false
+            }
+        ]
+    },
+    "Nokia": {
+        "relationship_strength": 7,
+        "key_contacts": [
+            {
+                "name": "Marco Maso",
+                "role": "Principal Standards Leadership and Strategic Planning Specialist",
+                "is_vip": false
+            },
+            {
+                "name": "Dalia Popescu",
+                "role": "Market Leader Financial Services Europe",
+                "is_vip": false
+            },
+            {
+                "name": "Malik GUERGOUCHE",
+                "role": "Chef de Projet Test et Validation 5G X-Haul",
+                "is_vip": false
+            }
+        ]
+    },
+    "Freelance": {
+        "relationship_strength": 7,
+        "key_contacts": [
+            {
+                "name": "Constantinos Antzakas",
+                "role": "Fractional Revenue Operations Leader",
+                "is_vip": false
+            },
+            {
+                "name": "Rishil Patel",
+                "role": "Customer Success Manager",
+                "is_vip": false
+            },
+            {
+                "name": "Mohammed El Amine EZZEDAMI",
+                "role": "Full-stack Developer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Stealth Startup": {
+        "relationship_strength": 6,
+        "key_contacts": [
+            {
+                "name": "Anand-Arnaud Pajaniradjane",
+                "role": "Founder",
+                "is_vip": true
+            },
+            {
+                "name": "Amitay Yamin",
+                "role": "Vice President of Business Development",
+                "is_vip": true
+            },
+            {
+                "name": "Joe Nyiri",
+                "role": "Headhunter",
+                "is_vip": false
+            }
+        ]
+    },
+    "Amazon": {
+        "relationship_strength": 6,
+        "key_contacts": [
+            {
+                "name": "Ben Allison",
+                "role": "Director of Applied Science",
+                "is_vip": false
+            },
+            {
+                "name": "Hasenali Ajithbasha",
+                "role": "Lead Tech/Science Recruiter",
+                "is_vip": false
+            },
+            {
+                "name": "Baris Gecer, PhD",
+                "role": "Senior Applied Scientist",
+                "is_vip": false
+            }
+        ]
+    },
+    "Alg\u00e9rie T\u00e9l\u00e9com": {
+        "relationship_strength": 5,
+        "key_contacts": [
+            {
+                "name": "Imad DADA",
+                "role": "Director of access network maintenance center",
+                "is_vip": false
+            },
+            {
+                "name": "BENZIANE Oussama",
+                "role": "Chef de projet skills center",
+                "is_vip": false
+            },
+            {
+                "name": "ayoub mohamed el amine bengueddache",
+                "role": "Chef de cellule exploitation reseau d acc\u00e9e",
+                "is_vip": false
+            }
+        ]
+    },
+    "Google": {
+        "relationship_strength": 5,
+        "key_contacts": [
+            {
+                "name": "Hamid Palangi",
+                "role": "Staff Research Scientist Manager",
+                "is_vip": false
+            },
+            {
+                "name": "Perry Nelson",
+                "role": "Staff Software Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Venkata Nandini Mamillapalli",
+                "role": "Google Student Ambassador",
+                "is_vip": false
+            }
+        ]
+    },
+    "Microsoft": {
+        "relationship_strength": 5,
+        "key_contacts": [
+            {
+                "name": "Zhengyan Shi",
+                "role": "Senior Researcher",
+                "is_vip": false
+            },
+            {
+                "name": "Daniel Coelho de Castro",
+                "role": "Senior Researcher",
+                "is_vip": false
+            },
+            {
+                "name": "Jayden Teoh",
+                "role": "Research Intern",
+                "is_vip": false
+            }
+        ]
+    },
+    "Ericsson": {
+        "relationship_strength": 4,
+        "key_contacts": [
+            {
+                "name": "Julia Equi",
+                "role": "Senior Researcher",
+                "is_vip": false
+            },
+            {
+                "name": "Chao HE",
+                "role": "Senior Software Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Abderrahmane Touileb",
+                "role": "Ing\u00e9nieur t\u00e9l\u00e9communications (Radio Mobile)",
+                "is_vip": false
+            }
+        ]
+    },
+    "Huawei Technologies": {
+        "relationship_strength": 4,
+        "key_contacts": [
+            {
+                "name": "Taher Jafferjee",
+                "role": "Machine Learning Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Marouane BRIK",
+                "role": "Ingenieur RNPO",
+                "is_vip": false
+            },
+            {
+                "name": "abderrahim chekroud",
+                "role": "3G RNO ENGINEER",
+                "is_vip": false
+            }
+        ]
+    },
+    "Technology Innovation Institute": {
+        "relationship_strength": 4,
+        "key_contacts": [
+            {
+                "name": "Yasser  Dahou ",
+                "role": "Lead Researcher",
+                "is_vip": false
+            },
+            {
+                "name": "Ahmed Telili",
+                "role": "AI Research Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Faissal  IZERMINE",
+                "role": "Research intern - Reasoning ",
+                "is_vip": false
+            }
+        ]
+    },
+    "INTTIC": {
+        "relationship_strength": 4,
+        "key_contacts": [
+            {
+                "name": "Ehlem Zigh Slimane",
+                "role": "Enseignant chercheur",
+                "is_vip": false
+            },
+            {
+                "name": "kacem kouninef",
+                "role": "FOAD",
+                "is_vip": false
+            },
+            {
+                "name": "soumya boutaghou",
+                "role": "\u00e9tudiante",
+                "is_vip": false
+            }
+        ]
+    },
+    "Self-employed": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Abednego Dennis Dama",
+                "role": "CEO",
+                "is_vip": true
+            },
+            {
+                "name": "ANIL Garasiya",
+                "role": "Account Manager",
+                "is_vip": false
+            },
+            {
+                "name": "Sami Mourad",
+                "role": "Artificial Intelligence Software Engineering Consultant",
+                "is_vip": false
+            }
+        ]
+    },
+    "Capgemini Engineering": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Michael SSEKIDDE",
+                "role": "Senior Validation and Intergration Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Oumar Issiaka TRAORE, Ph.D.",
+                "role": "Data Scientist and Solution Designer",
+                "is_vip": false
+            },
+            {
+                "name": "Fabrice ATREVI, PhD",
+                "role": "Consultant & AI Research Scientist",
+                "is_vip": false
+            }
+        ]
+    },
+    "Alstom": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Kenza HARKOUKEN",
+                "role": "AI & Data Science Manager",
+                "is_vip": false
+            },
+            {
+                "name": "Yassine BAKHTI \u064a\u0627\u0633\u064a\u0646 \u0628\u062e\u062a\u064a",
+                "role": "Data Scientist",
+                "is_vip": false
+            },
+            {
+                "name": "Amine DJENDARA",
+                "role": "Network Design Engineer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Bouygues Telecom": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "BENMAIZA Tarek",
+                "role": "Data analyst | t\u00e9l\u00e9com ",
+                "is_vip": false
+            },
+            {
+                "name": "Zakaria KOUNINEF",
+                "role": "Chef de projet M\u00e9thode et industrialisation",
+                "is_vip": false
+            },
+            {
+                "name": "Ilies BENMIRA",
+                "role": "Chef de Projet T\u00e9l\u00e9com- D\u00e9ploiement service B2B Data / Voix",
+                "is_vip": false
+            }
+        ]
+    },
+    "Capgemini": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Sk Saidul Islam",
+                "role": "Senior Consultant",
+                "is_vip": false
+            },
+            {
+                "name": "Swati P. Bannore Jain",
+                "role": "Lead AI Scientist",
+                "is_vip": false
+            },
+            {
+                "name": "Mohamed AOULED MOUSSA",
+                "role": "Senior Data Engineer | ANAH",
+                "is_vip": false
+            }
+        ]
+    },
+    "European Patent Office": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Samson DA COSTA",
+                "role": "Information Security Specialist",
+                "is_vip": false
+            },
+            {
+                "name": "Alaa Khreis",
+                "role": "Patent Examiner",
+                "is_vip": false
+            },
+            {
+                "name": "Ren\u00e9 DATONDJI, PhD",
+                "role": "Patent Examiner (Road, Air and Marine Traffic Control)",
+                "is_vip": false
+            }
+        ]
+    },
+    "Qube Research & Technologies": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Vincent Plassier, PhD",
+                "role": "Quantitative Researcher",
+                "is_vip": false
+            },
+            {
+                "name": "Thomas Lemercier",
+                "role": "Quant Researcher",
+                "is_vip": false
+            },
+            {
+                "name": "Xuedong Shang, PhD",
+                "role": "Quantitative Trader",
+                "is_vip": false
+            }
+        ]
+    },
+    "Queen Mary University of London": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Greg Slabaugh",
+                "role": "Professor, and Director of the Digital Environment Research Institute (DERI)",
+                "is_vip": false
+            },
+            {
+                "name": "David Mguni",
+                "role": "University Lecturer",
+                "is_vip": false
+            },
+            {
+                "name": "Shanxin Yuan",
+                "role": "Lecturer (Assistant Professor)",
+                "is_vip": false
+            }
+        ]
+    },
+    "Inria": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Benoit Rottembourg",
+                "role": "REGALIA lead",
+                "is_vip": false
+            },
+            {
+                "name": "Exauc\u00e9 Luweh Adjim Ngarti",
+                "role": "Machine Learning PhD Student",
+                "is_vip": false
+            },
+            {
+                "name": "Raouf Kerkouche",
+                "role": " Researcher",
+                "is_vip": false
+            }
+        ]
+    },
+    "ATM Mobilis": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Nassireddine SACI",
+                "role": "Ing\u00e9nieur de planification et transmission reseaux de transport",
+                "is_vip": false
+            },
+            {
+                "name": "Mustapha CHEROUATI",
+                "role": "Network Operations Center Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Anis BOUKHEDIM",
+                "role": "TL operation Microwave transmission",
+                "is_vip": false
+            }
+        ]
+    },
+    "FAB": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Fadhila BIO",
+                "role": "Chef division planification",
+                "is_vip": false
+            },
+            {
+                "name": "Yaya MOHAMED TAIROU",
+                "role": "Administrateur",
+                "is_vip": false
+            },
+            {
+                "name": "lionel YETONGNON",
+                "role": "m\u00e9decin militaire",
+                "is_vip": false
+            }
+        ]
+    },
+    "King's College London": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "I Alex",
+                "role": "Senior Research Fellow, Team Lead",
+                "is_vip": false
+            },
+            {
+                "name": "Akash Roy Choudhury",
+                "role": "Research Fellow",
+                "is_vip": false
+            },
+            {
+                "name": "Yaodong Yang",
+                "role": "Assistant Professor",
+                "is_vip": false
+            }
+        ]
+    },
+    "University of Oxford": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Arrykrishna Mootoovaloo (PhD)",
+                "role": "Research Fellow",
+                "is_vip": false
+            },
+            {
+                "name": "Leila Bagha, Ph.D.",
+                "role": "Postdoctoral Research Fellow",
+                "is_vip": false
+            },
+            {
+                "name": "Thierry Hounsa",
+                "role": "DPhil (PhD) Candidate in Economics",
+                "is_vip": false
+            }
+        ]
+    },
+    "Universit\u00e9 Paris-Saclay": {
+        "relationship_strength": 3,
+        "key_contacts": [
+            {
+                "name": "Frederic Pascal",
+                "role": "Vice President of Artificial Intelligence",
+                "is_vip": true
+            },
+            {
+                "name": "Roberto Junior PETOH TSENE",
+                "role": "PhD student, data science",
+                "is_vip": false
+            },
+            {
+                "name": "Saad KRIOUILE",
+                "role": "Chercheur postdoctoral",
+                "is_vip": false
+            }
+        ]
+    },
+    "AT&T": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "ALI JOHN NAQVI",
+                "role": "Research Assistant",
+                "is_vip": false
+            },
+            {
+                "name": "Jean Olivier Gasore",
+                "role": "Prem Tech",
+                "is_vip": false
+            }
+        ]
+    },
+    "Ooredoo Algerie": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Adel ISSAD",
+                "role": "Senior Information Security Planning engineer",
+                "is_vip": false
+            },
+            {
+                "name": "imene Ait amirat",
+                "role": "stagiare",
+                "is_vip": false
+            }
+        ]
+    },
+    "Norwegian University of Science and Technology (NTNU)": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Mohamed Abdelwahab",
+                "role": "Visiting Researcher",
+                "is_vip": false
+            },
+            {
+                "name": "Mamadou KEITA",
+                "role": "Stagiaire",
+                "is_vip": false
+            }
+        ]
+    },
+    "Amazon Web Services (AWS)": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Bernard McKeown",
+                "role": "Enterprise Account Manager",
+                "is_vip": false
+            },
+            {
+                "name": "Marius Herculea",
+                "role": "Cloud Infrastructure Architect - AWS Professional Services - GFS - Continental Europe",
+                "is_vip": false
+            }
+        ]
+    },
+    "EDF": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Keivan Razban",
+                "role": "Data scientist ",
+                "is_vip": false
+            },
+            {
+                "name": "Sophonie Jed Koboude",
+                "role": "Business Analyst",
+                "is_vip": false
+            }
+        ]
+    },
+    "SCC France": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Rabiou M. MAGAGI",
+                "role": "Sp\u00e9cialiste du recrutement BMI4 / Secteur priv\u00e9 ",
+                "is_vip": false
+            },
+            {
+                "name": "Koceila MEHANI",
+                "role": "Responsable de la Digital Factory - Data et IA",
+                "is_vip": false
+            }
+        ]
+    },
+    "NVIDIA": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Harshita Seth",
+                "role": "Senior Deep Learning Data Scientist - Gen AI",
+                "is_vip": false
+            },
+            {
+                "name": "Jakob Hoydis",
+                "role": "Distinguished Research Scientist",
+                "is_vip": false
+            }
+        ]
+    },
+    "Enigma": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Tom Goldberg",
+                "role": "Founder - Machine Learning & Generative AI Recruitment ",
+                "is_vip": true
+            },
+            {
+                "name": "Theo Forest",
+                "role": "Director - AI Science Recruitment",
+                "is_vip": false
+            }
+        ]
+    },
+    "CEA": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Billal IGHILAHRIZ",
+                "role": "Ing\u00e9nieur chercheur en cybers\u00e9curit\u00e9 mat\u00e9riel",
+                "is_vip": false
+            },
+            {
+                "name": "Mohamed El Amine CHABANE",
+                "role": "PHD Student",
+                "is_vip": false
+            }
+        ]
+    },
+    "Zamani Telecom": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Souleymane MOROU HAMADOU",
+                "role": "Ing\u00e9nieur exploitation et maintenance r\u00e9seaux ",
+                "is_vip": false
+            },
+            {
+                "name": "Moustapha Gandah",
+                "role": "Chef de Service  Coeur de r\u00e9seau & NOC",
+                "is_vip": false
+            }
+        ]
+    },
+    "LabLabee": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Samir Tahraoui",
+                "role": "Co-Founder & CEO",
+                "is_vip": true
+            },
+            {
+                "name": "Mohammed Seddik LAZREG",
+                "role": "Technical Support Manager",
+                "is_vip": false
+            }
+        ]
+    },
+    "Criteo": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Maxime Vono",
+                "role": "Staff Research Lead",
+                "is_vip": false
+            },
+            {
+                "name": "Corentin Pla",
+                "role": "Research scientist",
+                "is_vip": false
+            }
+        ]
+    },
+    "iSem Global": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Oliver Smail",
+                "role": "International Headhunter",
+                "is_vip": false
+            },
+            {
+                "name": "Nidhi M",
+                "role": "Semiconductor Recruitment Lead - USA ",
+                "is_vip": false
+            }
+        ]
+    },
+    "IC Resources": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Gemma Rowe",
+                "role": "Senior Recruitment Consultant",
+                "is_vip": false
+            },
+            {
+                "name": "Christopher Wyatt",
+                "role": "Principal Recruitment Consultant",
+                "is_vip": false
+            }
+        ]
+    },
+    "Econocom": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Aghiles Berhoun",
+                "role": "Ingenieur r\u00e9seaux et s\u00e9curit\u00e9",
+                "is_vip": false
+            },
+            {
+                "name": "Kanut TCHIBOZO KEKELE",
+                "role": "Directeur de projet informatique",
+                "is_vip": false
+            }
+        ]
+    },
+    "Upward": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Ma\u00eft\u00e9 Allain",
+                "role": "Partner & Directrice Upward Data & AI",
+                "is_vip": true
+            },
+            {
+                "name": "Antoine Le Gleuher",
+                "role": "Directeur \u2013 Upward Data & AI",
+                "is_vip": false
+            }
+        ]
+    },
+    "L'Or\u00e9al": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Hamza AJEDDIG, PhD",
+                "role": "Senior Data Engineer GCP",
+                "is_vip": false
+            },
+            {
+                "name": "Chara Vega Brown",
+                "role": "Data Analyst Engineer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Google DeepMind": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Antoine Yang",
+                "role": "Senior Research Scientist",
+                "is_vip": false
+            },
+            {
+                "name": "Dr. Alexander Cowen-Rivers",
+                "role": "Biosecurity Research Engineer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Huawei Paris Research Center": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Ali Bemani",
+                "role": "Senior Research Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Abdelhakim Benechehab",
+                "role": "PhD Candidate in Reinforcement Learning",
+                "is_vip": false
+            }
+        ]
+    },
+    "Accenture": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Dilane FOGUE KAMGA",
+                "role": "Senior Software & AI Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Abhishek Barandooru Janavejirao",
+                "role": "Senior Software Analyst",
+                "is_vip": false
+            }
+        ]
+    },
+    "NXP Semiconductors": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Tarun Akash",
+                "role": "ML Kernel Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Ioana Suciu",
+                "role": "Embedded Software Engineer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Open Innovation AI": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Abed Benaichouche, Ph.D",
+                "role": "Cofounder & CEO",
+                "is_vip": true
+            },
+            {
+                "name": "Fatima Zahra Maiche",
+                "role": "Head of People & Talent ",
+                "is_vip": false
+            }
+        ]
+    },
+    "IBM": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Dr Roushanak Rahmat",
+                "role": "Lead Data Science Consultant \u2013 AI, Automation & Analytics \u2013 GenAI",
+                "is_vip": false
+            },
+            {
+                "name": "Harsh Kumar Agarwal",
+                "role": "Software Engineer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Kyndryl": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Mohammad Beit-Sadi",
+                "role": "Associate Director (Data Science)",
+                "is_vip": false
+            },
+            {
+                "name": "Abdelkrim A.B",
+                "role": "CCMM Tower Lead for Global GRC Domain | S&R Practice ",
+                "is_vip": false
+            }
+        ]
+    },
+    "Canva": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Mehmet Kerim Yucel, PhD",
+                "role": "AI Research Manager",
+                "is_vip": false
+            },
+            {
+                "name": "Umberto Michieli",
+                "role": "Design Generation Research Manager",
+                "is_vip": false
+            }
+        ]
+    },
+    "University of South Florida": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Krishna Rijal",
+                "role": "Graduate Assistant",
+                "is_vip": false
+            },
+            {
+                "name": "Yasin Y\u0131lmaz",
+                "role": "Associate Professor",
+                "is_vip": false
+            }
+        ]
+    },
+    "\u00c9cole Nationale Sup\u00e9rieure des T\u00e9l\u00e9communications et des TIC": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Sid Ahmed Fezza",
+                "role": "Deputy Director of Information Systems, Communication and External Relations",
+                "is_vip": false
+            },
+            {
+                "name": "Sadok Mustapha",
+                "role": "Assistant Professor",
+                "is_vip": false
+            }
+        ]
+    },
+    "Confidential": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Dr Abdou Fadel BOUKARI",
+                "role": "Head of R&D and Engineering",
+                "is_vip": false
+            },
+            {
+                "name": "Kashish Khemka",
+                "role": "BI & Automation Lead",
+                "is_vip": false
+            }
+        ]
+    },
+    "Ind\u00e9pendant": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Hanane Taki",
+                "role": "Consultant Webmarketing",
+                "is_vip": false
+            },
+            {
+                "name": "yaaqoub khelafi",
+                "role": "C# Developer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Mastercard": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Fr\u00e9d\u00e9ric LE",
+                "role": "Product Director - B2B Travel Lead",
+                "is_vip": false
+            },
+            {
+                "name": "Steve Ahouanmenou",
+                "role": "Director, Privacy AI & Data Responsibility",
+                "is_vip": false
+            }
+        ]
+    },
+    "Oracle": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "ALDAS FRANCIS",
+                "role": "Analyst 2 ProdDev",
+                "is_vip": false
+            },
+            {
+                "name": "Nikola Bozic",
+                "role": "Principal EMEA - Business Value Services & Strategy",
+                "is_vip": false
+            }
+        ]
+    },
+    "Qualcomm": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Im\u00e8ne Ghamnia",
+                "role": "Senior Engineer",
+                "is_vip": false
+            },
+            {
+                "name": "Meysam Sadeghi",
+                "role": "Staff Engineer",
+                "is_vip": false
+            }
+        ]
+    },
+    "Apple": {
+        "relationship_strength": 2,
+        "key_contacts": [
+            {
+                "name": "Abhijit Sen",
+                "role": "Engineering Manager - Applied Machine Learning",
+                "is_vip": false
+            },
+            {
+                "name": "Kenza Hamidouche",
+                "role": "Applied Research Scientist",
+                "is_vip": false
+            }
+        ]
+    }
+}

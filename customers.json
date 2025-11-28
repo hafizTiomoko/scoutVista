@@ -1,8 +1,8 @@
 [
   {
-    "name": "Hafiz",
-    "email": "tio.hafiz@gmail.com",
-"interests": "Technical AI advancements: Deep Learning, Recommender Systems (RecSys), Generative AI, and Model Efficiency techniques (Quantization, Distillation, SLMs).",
-    "topic_query": "\"Recommender Systems\" OR \"RecSys\" OR \"Generative AI\" OR \"Efficient LLMs\" OR \"Small Language Models\" OR \"Model Distillation\" -stock -intro"
+    "name": "Mo",
+    "email": "balajom@yahoo.co.uk",
+    "interests": "Recruitment triggers in Life Sciences: companies raising capital, FDA approvals, or expanding teams.",
+    "topic_query": "\"Biotech\" OR \"Life Sciences\" startup funding OR \"Series A\" OR \"Series B\" -market -stock"
   }
 ]
